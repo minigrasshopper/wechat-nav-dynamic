@@ -1,0 +1,74 @@
+.ant-nav-dynamic-wrapper {
+  position: fixed;
+  z-index: 99999;
+  left: 0;
+  top: 0;
+  width: 750rpx;
+  box-sizing: border-box;
+  word-break: break-all;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.ant-nav-dynamic-wrapper view,
+.ant-nav-dynamic-wrapper cover-view,
+.ant-nav-dynamic-wrapper cover-image,
+.ant-nav-dynamic-wrapper text,
+.ant-nav-dynamic-wrapper swiper,
+.ant-nav-dynamic-wrapper swiper-item,
+.ant-nav-dynamic-wrapper input,
+.ant-nav-dynamic-wrapper picker,
+.ant-nav-dynamic-wrapper textarea,
+.ant-nav-dynamic-wrapper form {
+  box-sizing: border-box;
+  word-break: break-all;
+}
+.ant-nav-dynamic-wrapper .ant-nav-status-area {
+  width: 100%;
+}
+.ant-nav-dynamic-wrapper .ant-nav-content-area {
+  position: relative;
+  width: 100%;
+  flex: 1;
+}
+.ant-nav-dynamic-wrapper .ant-nav-content-area .ant-nav-history-home-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.ant-nav-dynamic-wrapper .ant-nav-content-area .ant-nav-history-home-box .ant-nav-history-chunk {
+  width: 80rpx;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.ant-nav-dynamic-wrapper .ant-nav-content-area .ant-nav-history-home-box .ant-nav-history-chunk .arrow-back {
+  transform: rotate(45deg);
+  border: 4rpx solid transparent;
+  border-top: none;
+  border-right: none;
+  width: 24rpx;
+  height: 24rpx;
+}
+.ant-nav-dynamic-wrapper .ant-nav-content-area .ant-nav-history-home-box .ant-nav-home {
+  width: 40rpx;
+  height: 40rpx;
+}
+.ant-nav-dynamic-wrapper .ant-nav-content-area .ant-nav-history-home-box .ant-nav-home.hasgap {
+  margin-left: 20rpx;
+}
+.ant-nav-dynamic-wrapper .ant-nav-content-area .ant-nav-title-box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 300rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
+}
